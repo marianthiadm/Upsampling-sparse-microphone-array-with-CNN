@@ -154,7 +154,9 @@ This will:
 3. Overlay the time-varying spatial audio map on the corresponding reference video clip.
 4. Save final videos to the `overlays/` folder.
 
-> **Prerequisites:** `transferFunc32.mat` must be present in the project root, and the `Cx_videos/` and `Cx_data/` dataset folders must be populated. `ffmpeg` must be accessible (see Installation).
+> **Prerequisites:** `transferFunc32.mat` must be present in the project root, and the `Cx_videos/` and `Cx_data/` dataset folders must be populated. `ffmpeg` must be accessible (see Installation). `transferFunc32.mat` is the transfer function of the spherical array with the specific characteristics of this project, computed from https://github.com/polarch/Array-Response-Simulator/blob/master/simulateSphArray.m for the chosen grid. After the transfer function is computed is saved locally and then loaded to the python ```bash
+python Beamformer_n_video.py
+``` file.
 
 ---
 
