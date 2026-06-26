@@ -8,6 +8,8 @@ The pipeline consists of:
 3. **Inference** — loading a trained model, running predictions on unseen data, and evaluating RMSE loss.
 4. **Beamforming & visualisation** — applying delay-and-sum beamforming to the predicted covariance matrices and overlaying the resulting spatial audio maps on video.
 
+The article corresponding to this work can be found at: https://ieeexplore.ieee.org/abstract/document/11558232
+
 ---
 
 ## Repository Structure
